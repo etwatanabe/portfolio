@@ -1,0 +1,19 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Backend Software Engineer",
+    "description": "I'm a problem solver who enjoys working with server-side technologies to create seamless user experiences."
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "My introduction",
+    "description": "Backend developer focused on creating scalable and high-performance systems. With experience in technologies such as Node.js, Java, and Python, I have implemented solutions that meet the needs of various businesses.",
+    "downloadCV": "Download CV"
+  }
+}
