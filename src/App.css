@@ -95,7 +95,7 @@ body {
 body.dark-theme {
   --title-color: hsl(var(--hue), var(--sat), 92%);
   --title-color-dark: hsl(var(--hue), var(--sat), 100%);
-  --text-color: hsl(var(--hue), var(--sat), 80%);
+  --text-color: hsl(var(--hue), var(--sat), 70%);
   --body-color: hsl(var(--hue), var(--sat), 12%);
   --container-color: #111;
   --icon-filter: brightness(0);

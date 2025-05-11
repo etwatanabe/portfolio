@@ -8,20 +8,24 @@ import Skills from "./components/skills/Skills";
 import Experience from "./components/experience/Experience";
 import Footer from "./components/footer/Footer";
 import { ThemeProvider } from "./context/ThemeContext";
+import SocialSidebar from "./components/socialSidebar/SocialSidebar";
 
 const App = () => {
   return (
     <>
       <ThemeProvider>
         <Header />
+        <SocialSidebar />
 
         <main className="main">
           <Home />
           <About />
           <Skills />
           <Experience />
-          <Footer />
         </main>
+        
+        
+        <Footer />
       </ThemeProvider>
     </>
   );
