@@ -1,0 +1,16 @@
+.theme__button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme__button i {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  transition: 0.3s;
+}
+
+.theme__button:hover i {
+  color: var(--title-color-dark);
+}
