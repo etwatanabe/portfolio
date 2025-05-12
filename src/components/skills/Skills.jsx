@@ -1,42 +1,71 @@
-import React from "react";
-import "./skills.css";
-import SkillContent from "./SkillsContent.jsx";
-import SkillData from "./SkillData.jsx";
+import React from 'react';
+import './skills.css';
+import SkillCategory from './SkillCategory';
 
 const Skills = () => {
+  const skillsData = [
+    {
+      title: "Languages",
+      skills: [
+        { name: "C#", icon: "devicon-csharp-plain" },
+        { name: "Python", icon: "devicon-python-plain" },
+        { name: "JavaScript", icon: "devicon-javascript-plain" },
+        { name: "TypeScript", icon: "devicon-typescript-plain" },
+        { name: "Java", icon: "devicon-java-plain" }
+      ]
+    },
+    {
+      title: "Backend",
+      skills: [
+        { name: "Node.js", icon: "devicon-nodejs-plain" },
+        { name: "Express", icon: "devicon-express-original" },
+        { name: "Nest.js", icon: "devicon-nestjs-plain" },
+        { name: "ASP.NET", icon: "devicon-dotnetcore-plain" }
+      ]
+    },
+    {
+      title: "Frontend",
+      skills: [
+        { name: "React", icon: "devicon-react-original" },
+        { name: "Angular", icon: "devicon-angularjs-plain" },
+        { name: "Next.js", icon: "devicon-nextjs-original-wordmark" }
+      ]
+    },
+    {
+      title: "Databases",
+      skills: [
+        { name: "PostgreSQL", icon: "devicon-postgresql-plain" },
+        { name: "MongoDB", icon: "devicon-mongodb-plain" },
+        { name: "MySQL", icon: "devicon-mysql-plain" },
+        { name: "SQL Server", icon: "devicon-microsoftsqlserver-plain" }
+      ]
+    },
+    {
+      title: "Tools & DevOps",
+      skills: [
+        { name: "Docker", icon: "devicon-docker-plain" },
+        { name: "Git", icon: "devicon-git-plain" },
+        { name: "GitHub", icon: "devicon-github-original" },
+        { name: "Postman", icon: "devicon-postman-plain" }
+      ]
+    }
+  ];
+
   return (
     <section className="skills section" id="skills">
-      <h3 className="section__title">Skills</h3>
+      <h2 className="section__title">Skills</h2>
       <span className="section__subtitle">My technical level</span>
 
-      <div className="skills__container container grid">
-        <SkillContent title="Languages">
-          <SkillData name="C#" level="Intermediate"/>
-          <SkillData name="Python" level="Intermediate"/>
-          <SkillData name="JavaScript" level="Intermediate"/>
-          <SkillData name="TypeScript" level="Basic"/>
-          <SkillData name="Java" level="Basic"/>
-        </SkillContent>
-
-        <SkillContent title="Backend">
-          <SkillData name="Node.js" level="Intermediate"/>
-          <SkillData name="Express" level="Intermediate"/>
-          <SkillData name="Nest.js" level="Basic"/>
-          <SkillData name="ASP .NET" level="Basic"/>
-        </SkillContent>
-
-        <SkillContent title="Frontend">
-          <SkillData name="React" level="Intermediate"/>
-          <SkillData name="Angular" level="Basic"/>
-          <SkillData name="Next.js" level="Basic"/>
-        </SkillContent>
-
-        <SkillContent title="Databases">
-          <SkillData name="PostgreSQL" level="Intermediate"/>
-          <SkillData name="MongoDB" level="Intermediate"/>
-          <SkillData name="MySQL" level="Basic"/>
-          <SkillData name="SQL Server" level="Basic"/>
-        </SkillContent>
+      <div className="skills__container container">
+        <div className="skills__categories">
+          {skillsData.map((category, index) => (
+            <SkillCategory 
+              key={index}
+              title={category.title}
+              skills={category.skills}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
