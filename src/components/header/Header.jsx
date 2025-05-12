@@ -2,8 +2,11 @@ import React, { useState } from 'react';
 import "./header.css";
 import ThemeButton from './themeButton/ThemeButton';
 import LanguageSelector from './language/LanguageSelector';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
+  const { t } = useTranslation();
+
   /* Change Background Header */
   window.addEventListener("scroll", function() {
     const header = document.querySelector(".header");
@@ -25,25 +28,25 @@ const Header = () => {
 
             <li className="nav__item">
               <a href="#home" onClick={()=>setActiveNav("#home")} className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}>
-                <i className="uil uil-estate nav__icon"></i> Home
+                <i className="uil uil-estate nav__icon"></i>{t("header.home")}
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#about" onClick={()=>setActiveNav("#about")} className={activeNav === "#about" ? "nav__link active-link" : "nav__link"}>
-                <i className="uil uil-user nav__icon"></i> About
+                <i className="uil uil-user nav__icon"></i>{t("header.about")}
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#skills" onClick={()=>setActiveNav("#skills")} className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}>
-                <i className="uil uil-file-alt nav__icon"></i> Skills
+                <i className="uil uil-file-alt nav__icon"></i>{t("header.skills")}
               </a>
             </li>
 
             <li className="nav__item">
               <a href="#experience" onClick={()=>setActiveNav("#experience")} className={activeNav === "#experience" ? "nav__link active-link" : "nav__link"}>
-                <i className="uil uil-scenery nav__icon"></i> Experience
+                <i className="uil uil-scenery nav__icon"></i>{t("header.experience")}
               </a>
             </li>
           </ul>

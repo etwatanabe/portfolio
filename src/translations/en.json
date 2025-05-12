@@ -6,14 +6,49 @@
     "experience": "Experience",
     "contact": "Contact"
   },
-  "hero": {
+
+  "home": {
     "title": "Backend Software Engineer",
-    "description": "I'm a problem solver who enjoys working with server-side technologies to create seamless user experiences."
+    "description": "I'm a problem solver who enjoys working with server-side technologies to create seamless user experiences.",
+    "contact": "Contact Me"
   },
+
   "about": {
     "title": "About Me",
     "subtitle": "My introduction",
+    "card1": {
+      "title": "Continuous Learner",
+      "description": "Evolve, adapt, improve"
+    },
+    "card2": {
+      "title": "Problem Solver",
+      "description": "Tackle tough challenges"
+    },
+    "card3": {
+      "title": "Team Player",
+      "description": "Build better together"
+    },
     "description": "Backend developer focused on creating scalable and high-performance systems. With experience in technologies such as Node.js, Java, and Python, I have implemented solutions that meet the needs of various businesses.",
-    "downloadCV": "Download CV"
-  }
+    "download": "Download Resume"
+  },
+
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My technical level",
+    "languages": "Languages",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "databases": "Databases",
+    "toolsdevops": "Tools & DevOps"
+  },
+
+  "experience": {
+    "title": "Experience",
+    "subtitle": "My professional journey",
+    "job1": "Research, Development and Innovation Manager",
+    "job2": "Software Developer",
+    "job3": "Mobile Developer"
+  },
+  
+  "footer": "All rights reserved"
 }

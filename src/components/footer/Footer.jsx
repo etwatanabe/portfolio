@@ -1,7 +1,10 @@
 import React from "react";
 import "./footer.css";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+  
   return (
     <footer className="footer">
       <div className="footer__container container">
@@ -27,7 +30,7 @@ const Footer = () => {
         </div>
 
         <span className="footer__copy">
-          &#169; ETW. All rights reserved
+          &#169; ETW. {t("footer")}
         </span>
       </div>
     </footer>

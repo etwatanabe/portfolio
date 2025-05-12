@@ -10,10 +10,45 @@
     "title": "Desenvolvedor de Software Backend",
     "description": "Sou um solucionador de problemas que gosta de trabalhar com tecnologias de servidor para criar experiências perfeitas para os usuários."
   },
+  "home": {
+    "title": "Engenheiro de Software Backend",
+    "description": "Sou um solucionador de problemas que gosta de trabalhar com tecnologias de servidor para criar experiências perfeitas para os usuários.",
+    "contact": "Entre em Contato"
+  },
   "about": {
     "title": "Sobre Mim",
     "subtitle": "Minha introdução",
+    "card1": {
+      "title": "Aprendiz Contínuo",
+      "description": "Evoluir, adaptar, melhorar"
+    },
+    "card2": {
+      "title": "Solucionador de Problemas",
+      "description": "Enfrentando desafios difíceis"
+    },
+    "card3": {
+      "title": "Trabalho em Equipe",
+      "description": "Construindo melhor juntos"
+    },
     "description": "Desenvolvedor backend focado em criar sistemas escaláveis e de alto desempenho. Com experiência em tecnologias como Node.js, Java e Python, implementei soluções que atendem às necessidades de diversos negócios.",
-    "downloadCV": "Baixar CV"
-  }
+    "downloadCV": "Baixar CV",
+    "download": "Baixar Currículo"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Meu nível técnico",
+    "languages": "Linguagens",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "databases": "Bancos de Dados",
+    "toolsdevops": "Ferramentas & DevOps"
+  },
+  "experience": {
+    "title": "Experiência",
+    "subtitle": "Minha jornada profissional",
+    "job1": "Gestor de Pesquisa, Desenvolvimento e Inovação",
+    "job2": "Desenvolvedor de Software",
+    "job3": "Desenvolvedor Mobile"
+  },
+  "footer": "Todos os direitos reservados"
 }
