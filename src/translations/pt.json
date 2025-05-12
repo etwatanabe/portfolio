@@ -1,0 +1,19 @@
+{
+  "header": {
+    "home": "Início",
+    "about": "Sobre",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Desenvolvedor de Software Backend",
+    "description": "Sou um solucionador de problemas que gosta de trabalhar com tecnologias de servidor para criar experiências perfeitas para os usuários."
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Minha introdução",
+    "description": "Desenvolvedor backend focado em criar sistemas escaláveis e de alto desempenho. Com experiência em tecnologias como Node.js, Java e Python, implementei soluções que atendem às necessidades de diversos negócios.",
+    "downloadCV": "Baixar CV"
+  }
+}
