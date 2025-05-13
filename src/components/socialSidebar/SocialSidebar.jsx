@@ -23,21 +23,12 @@ const SocialSidebar = () => {
       </a>
       
       <a 
-        href="mailto:eduardotwatanabe@gmail.com" 
+        href="https://www.instagram.com/wtksh" 
         className="social-box__link" 
         target="_blank"
         rel="noreferrer"
       >
-        <i className="bx bx-envelope"></i>
-      </a>
-      
-      <a 
-        href="https://wa.me/+5573999713191" 
-        className="social-box__link" 
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="bx bxl-whatsapp"></i>
+        <i className="bx bxl-instagram"></i>
       </a>
     </div>
   );

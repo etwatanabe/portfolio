@@ -1,13 +1,18 @@
 import React from "react";
 import "./about.css";
 import Resume from "../../assets/RESUME_Eduardo_Watanabe.pdf";
+import Curriculo from "../../assets/CURRICULO_Eduardo_Watanabe.pdf";
 import filesSVG from "../../assets/files.svg";
 import Info from "./Info";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
+  const currentLanguage = i18n.language;
+  const isEnglish = currentLanguage === "en";
+  const resumeFile = isEnglish ? Resume : Curriculo;
+  
   return (
     <section className="about section" id="about">
       <h2 className="section__title">{t("about.title")}</h2>
@@ -23,7 +28,7 @@ const About = () => {
             {t("about.description")}
           </p>
 
-          <a download="" href={Resume} className="button button--flex">
+          <a download="" href={resumeFile} className="button button--flex" target="_blank">
             {t("about.download")}
             <img src={filesSVG} alt="" className="files__icon"></img>
           </a>

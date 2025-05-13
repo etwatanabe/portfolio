@@ -2,22 +2,18 @@
   "header": {
     "home": "Início",
     "about": "Sobre",
-    "skills": "Habilidades",
+    "skills": "Skills",
     "experience": "Experiência",
     "contact": "Contato"
   },
-  "hero": {
-    "title": "Desenvolvedor de Software Backend",
-    "description": "Sou um solucionador de problemas que gosta de trabalhar com tecnologias de servidor para criar experiências perfeitas para os usuários."
-  },
   "home": {
-    "title": "Engenheiro de Software Backend",
-    "description": "Sou um solucionador de problemas que gosta de trabalhar com tecnologias de servidor para criar experiências perfeitas para os usuários.",
+    "title": "Engenheiro de Software Full Stack",
+    "description": "Sou um solucionador de problemas que gosta de trabalhar com tecnologias para criar experiências perfeitas para os usuários.",
     "contact": "Entre em Contato"
   },
   "about": {
     "title": "Sobre Mim",
-    "subtitle": "Minha introdução",
+    "subtitle": "Uma breve apresentação",
     "card1": {
       "title": "Aprendiz Contínuo",
       "description": "Evoluir, adaptar, melhorar"
@@ -30,14 +26,13 @@
       "title": "Trabalho em Equipe",
       "description": "Construindo melhor juntos"
     },
-    "description": "Desenvolvedor backend focado em criar sistemas escaláveis e de alto desempenho. Com experiência em tecnologias como Node.js, Java e Python, implementei soluções que atendem às necessidades de diversos negócios.",
-    "downloadCV": "Baixar CV",
+    "description": "Desenvolvedor Fullstack focado na criação de sistemas escaláveis, de alto desempenho e com experiências de usuário otimizadas. Próximo de concluir a graduação em Ciência da Computação, construí uma base técnica sólida junto com experiência prática em tecnologias como Node.js, C#, Python e frameworks de frontend, entregando soluções completas para diferentes negócios.",
     "download": "Baixar Currículo"
   },
   "skills": {
-    "title": "Habilidades",
+    "title": "Skills",
     "subtitle": "Meu nível técnico",
-    "languages": "Linguagens",
+    "languages": "Linguagens de Programação",
     "backend": "Backend",
     "frontend": "Frontend",
     "databases": "Bancos de Dados",
@@ -49,6 +44,26 @@
     "job1": "Gestor de Pesquisa, Desenvolvimento e Inovação",
     "job2": "Desenvolvedor de Software",
     "job3": "Desenvolvedor Mobile"
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Entre em contato",
+    "cards": {
+      "title": "Fale comigo",
+      "send": "Mandar mensagem"
+    },
+    "form": {
+      "title": "Escreva uma mensagem",
+      "nameLabel": "Nome",
+      "namePlaceholder": "Digite seu nome",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Digite seu email",
+      "messageLabel": "Mensagem",
+      "messagePlaceholder": "Escreva sua mensagem",
+      "submit": "Enviar Mensagem"
+    },
+    "successMessage": "Mensagem enviada com sucesso!",
+    "errorMessage": "Erro ao enviar mensagem. Por favor, tente novamente."
   },
   "footer": "Todos os direitos reservados"
 }
