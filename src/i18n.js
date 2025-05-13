@@ -17,6 +17,7 @@ i18n
         translation: ptTranslation
       }
     },
+    lng: 'en',
     fallbackLng: 'en',
     detection: {
       order: ['localStorage', 'navigator'],

@@ -6,13 +6,11 @@
     "experience": "Experience",
     "contact": "Contact"
   },
-
   "home": {
-    "title": "Backend Software Engineer",
-    "description": "I'm a problem solver who enjoys working with server-side technologies to create seamless user experiences.",
-    "contact": "Contact Me"
+    "title": "Fullstack Software Engineer",
+    "description": "I'm a problem solver who enjoys working with technologies to create seamless experiences for users.",
+    "contact": "Get in Touch"
   },
-
   "about": {
     "title": "About Me",
     "subtitle": "My introduction",
@@ -22,16 +20,15 @@
     },
     "card2": {
       "title": "Problem Solver",
-      "description": "Tackle tough challenges"
+      "description": "Tackling tough challenges"
     },
     "card3": {
       "title": "Team Player",
-      "description": "Build better together"
+      "description": "Building better together"
     },
-    "description": "Backend developer focused on creating scalable and high-performance systems. With experience in technologies such as Node.js, Java, and Python, I have implemented solutions that meet the needs of various businesses.",
+    "description": "Fullstack developer focused on creating scalable, high-performance systems with optimized user experiences. With experience in technologies like Node.js, Java, Python, and frontend frameworks, I’ve built complete solutions that meet the needs of various businesses.",
     "download": "Download Resume"
   },
-
   "skills": {
     "title": "Skills",
     "subtitle": "My technical level",
@@ -41,14 +38,32 @@
     "databases": "Databases",
     "toolsdevops": "Tools & DevOps"
   },
-
   "experience": {
     "title": "Experience",
     "subtitle": "My professional journey",
-    "job1": "Research, Development and Innovation Manager",
+    "job1": "Research, Development & Innovation Manager",
     "job2": "Software Developer",
     "job3": "Mobile Developer"
   },
-  
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch",
+    "cards": {
+      "title": "Talk to me",
+      "send": "Write me"
+    },
+    "form": {
+      "title": "Write me a message",
+      "nameLabel": "Name",
+      "namePlaceholder": "Insert your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Insert your email",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message",
+      "submit": "Send Message"
+    },
+    "successMessage": "Message sent successfully!",
+    "errorMessage": "Error sending message. Please try again."
+  },
   "footer": "All rights reserved"
 }

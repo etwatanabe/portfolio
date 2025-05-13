@@ -11,10 +11,10 @@ const Data = () => {
       <h3 className="home__subtitle">{t("home.title")}</h3>
       <p className="home__description">{t("home.description")}</p>
 
-      <a href="#contact" className="button button--flex">
+      <button href="#contact" className="button button--flex">
         {t("home.contact")}
         <img src={sendSVG} alt="" className="send__icon"></img>
-      </a>
+      </button>
     </div>
   );
 };
