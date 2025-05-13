@@ -24,6 +24,14 @@
   padding: 1rem;
   border-radius: 0.75rem;
   text-align: center;
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+
+.contact__card:hover {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 .contact__card-icon {
@@ -46,8 +54,7 @@
   margin-bottom: var(--mb-0-75);
 }
 
-.contact__button {
-  color: var(--text-color);
+.contact__arrow {
   font-size: var(--small-font-size);
   display: inline-flex;
   align-items: center;
@@ -55,13 +62,8 @@
   column-gap: 0.25rem;
 }
 
-.contact__button-icon {
+.contact__arrow-icon {
   font-size: 1rem;
-  transition: 0.3s;
-}
-
-.contact__button:hover .contact__button-icon {
-  transform: translate(0.25rem);
 }
 
 .contact__form {

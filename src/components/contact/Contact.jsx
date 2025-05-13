@@ -48,28 +48,29 @@ const Contact = () => {
           <h3 className="contact__title">{t("contact.cards.title")}</h3>
 
           <div className="contact__info">
-            <div className="contact__card">
+
+            <a href="mailto:eduardotwatanabe@gmail.com" target="_blank" className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">eduardotwatanabe@gmail.com</span>
 
-              <a href="mailto:eduardotwatanabe@gmail.com" className="contact__button">
+              <div className="contact__arrow">
                 {t("contact.cards.send")}{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
-            <div className="contact__card">
+                <i className="bx bx-right-arrow-alt contact__arrow-icon"></i>
+              </div>
+            </a>
+            <a href="https://wa.me/+5573999713191" target="_blank" className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">WhatsApp</h3>
               <span className="contact__card-data">+55 (73) 99971-3191</span>
 
-              <a href="https://wa.me/+557399824849" target="_blank" className="contact__button">
+              <div className="contact__arrow">
                 {t("contact.cards.send")}{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
+                <i className="bx bx-right-arrow-alt contact__arrow-icon"></i>
+              </div>
+            </a>
           </div>
         </div>
 
