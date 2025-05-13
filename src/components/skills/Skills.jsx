@@ -8,8 +8,9 @@ const Skills = () => {
 
   const skillsData = [
     {
-      title: "Languages",
+      title: t("skills.languages"),
       skills: [
+        { name: "C", icon: "devicon-c-plain" },
         { name: "C#", icon: "devicon-csharp-plain" },
         { name: "Python", icon: "devicon-python-plain" },
         { name: "JavaScript", icon: "devicon-javascript-plain" },
@@ -18,7 +19,7 @@ const Skills = () => {
       ]
     },
     {
-      title: "Backend",
+      title: t("skills.backend"),
       skills: [
         { name: "Node.js", icon: "devicon-nodejs-plain" },
         { name: "Express", icon: "devicon-express-original" },
@@ -27,15 +28,16 @@ const Skills = () => {
       ]
     },
     {
-      title: "Frontend",
+      title: t("skills.frontend"),
       skills: [
         { name: "React", icon: "devicon-react-original" },
         { name: "Angular", icon: "devicon-angularjs-plain" },
-        { name: "Next.js", icon: "devicon-nextjs-original-wordmark" }
+        { name: "Next.js", icon: "devicon-nextjs-original-wordmark" },
+        { name: "Bootstrap", icon: "devicon-bootstrap-plain" },
       ]
     },
     {
-      title: "Databases",
+      title: t("skills.databases"),
       skills: [
         { name: "PostgreSQL", icon: "devicon-postgresql-plain" },
         { name: "MongoDB", icon: "devicon-mongodb-plain" },
@@ -44,11 +46,12 @@ const Skills = () => {
       ]
     },
     {
-      title: "Tools & DevOps",
+      title: t("skills.toolsdevops"),
       skills: [
         { name: "Docker", icon: "devicon-docker-plain" },
         { name: "Git", icon: "devicon-git-plain" },
         { name: "GitHub", icon: "devicon-github-original" },
+        { name: "GitHubActions", icon: "devicon-githubactions-plain" },
         { name: "Postman", icon: "devicon-postman-plain" }
       ]
     }
