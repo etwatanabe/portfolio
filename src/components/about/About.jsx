@@ -23,7 +23,7 @@ const About = () => {
             {t("about.description")}
           </p>
 
-          <a download="" href={Resume} className="button button--flex">
+          <a download="" href={Resume} className="button button--flex" target="_blank">
             {t("about.download")}
             <img src={filesSVG} alt="" className="files__icon"></img>
           </a>
