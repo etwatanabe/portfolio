@@ -1,5 +1,4 @@
 import React from "react";
-import sendSVG from "../../assets/send.svg";
 import { useTranslation } from "react-i18next";
 
 const Data = () => {
@@ -11,10 +10,6 @@ const Data = () => {
       <h3 className="home__subtitle">{t("home.title")}</h3>
       <p className="home__description">{t("home.description")}</p>
 
-      <button href="#contact" className="button button--flex">
-        {t("home.contact")}
-        <img src={sendSVG} alt="" className="send__icon"></img>
-      </button>
     </div>
   );
 };
