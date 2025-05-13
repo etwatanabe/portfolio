@@ -5,6 +5,8 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import enTranslation from './translations/en.json';
 import ptTranslation from './translations/pt.json';
 
+const savedLanguage = localStorage.getItem('i18nextLng');
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -17,11 +19,13 @@ i18n
         translation: ptTranslation
       }
     },
-    lng: 'en',
+    lng: savedLanguage || 'en',
     fallbackLng: 'en',
     detection: {
       order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
+      lookupLocalStorage: 'i18nextLng',
+      caches: ['localStorage'],
+      cookieMinutes: 10080
     },
     interpolation: {
       escapeValue: false
