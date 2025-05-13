@@ -79,28 +79,33 @@ const Contact = () => {
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
-              <label className="contact__form-tag">{t("contact.form.nameLabel")}</label>
+              <label for="form_name" className="contact__form-tag">{t("contact.form.nameLabel")}</label>
               <input
+                id="form_name"
                 type="text"
                 name="name"
                 required
-                className="contact__form-input"
+                autoComplete="name"
                 placeholder={t("contact.form.namePlaceholder")}
+                className="contact__form-input"
               />
             </div>
             <div className="contact__form-div">
-              <label className="contact__form-tag">{t("contact.form.emailLabel")}</label>
+              <label for="form_email" className="contact__form-tag">{t("contact.form.emailLabel")}</label>
               <input
+                id="form_email"
                 type="email"
                 name="email"
                 required
-                className="contact__form-input"
+                autoComplete="email"
                 placeholder={t("contact.form.emailPlaceholder")}
+                className="contact__form-input"
               />
             </div>
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">{t("contact.form.messageLabel")}</label>
+              <label for="form_message" className="contact__form-tag">{t("contact.form.messageLabel")}</label>
               <textarea
+                id="form_message"
                 name="message"
                 cols="30"
                 rows="10"
