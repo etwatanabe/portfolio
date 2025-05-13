@@ -79,7 +79,7 @@ const Contact = () => {
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
-              <label for="form_name" className="contact__form-tag">{t("contact.form.nameLabel")}</label>
+              <label htmlFor="form_name" className="contact__form-tag">{t("contact.form.nameLabel")}</label>
               <input
                 id="form_name"
                 type="text"
@@ -91,7 +91,7 @@ const Contact = () => {
               />
             </div>
             <div className="contact__form-div">
-              <label for="form_email" className="contact__form-tag">{t("contact.form.emailLabel")}</label>
+              <label htmlFor="form_email" className="contact__form-tag">{t("contact.form.emailLabel")}</label>
               <input
                 id="form_email"
                 type="email"
@@ -103,7 +103,7 @@ const Contact = () => {
               />
             </div>
             <div className="contact__form-div contact__form-area">
-              <label for="form_message" className="contact__form-tag">{t("contact.form.messageLabel")}</label>
+              <label htmlFor="form_message" className="contact__form-tag">{t("contact.form.messageLabel")}</label>
               <textarea
                 id="form_message"
                 name="message"
