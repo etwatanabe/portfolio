@@ -20,12 +20,8 @@ const Footer = () => {
             <i className="bx bxl-github"></i>
           </a>
           
-          <a href="https://wa.me/+5573999713191" className="footer__social-link" target="_blank">
-            <i className="bx bxl-whatsapp"></i>
-          </a>
-
-          <a href="mailto:eduardotwatanabe@gmail.com" className="footer__social-link" target="_blank">
-            <i className="bx bx-envelope"></i>
+          <a href="https://www.instagram.com/wtksh" className="footer__social-link" target="_blank">
+            <i className="bx bxl-instagram"></i>
           </a>
         </div>
 
